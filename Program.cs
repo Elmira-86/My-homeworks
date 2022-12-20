@@ -1,65 +1,74 @@
 ﻿//Домашнее задание 1
 
-// int SecondNumber(int num)
-// {
-//     int sot = num/10;
-//     int ed = sot%10;
-//     return ed;
+// Console.WriteLine("Input first number");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number");
+// int b = Convert.ToInt32(Console.ReadLine());
+
+// int max = a;
+// if (b > max)
+// {  
+//     Console.WriteLine($"{b} is max of {a}");
 // }
+// else
+// {
+//     Console.WriteLine($"{a} is max of {b}");
+// }
+
+//Домашнее задание 2 (Имеется ошибка, не решен)
+
+// Console.WriteLine("Напиши первый номер");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Напиши второй номер");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Напиши третий номер");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+
+// int max = num1;
+
+// if (num2 > max)
+// {  
+//     max = num2;
+// }
+// if (num3 > max)
+// {
+//     max = num3;
+// }
+
+//     Console.WriteLine("Mаксимальное число " + max);
+
+
+// Домашнее задание 3
 
 // Console.WriteLine("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine(SecondNumber(num));
+// int i = Convert.ToInt32(Console.ReadLine());
 
-//Домашнее задание 2
-
-// int ThirdNumber (int num)
+// if (i % 2 == 0)
 // {
-// if(num >= 100 && num < 1000)
-// {
-//     num = num % 10;
-//     return num;
+//     Console.WriteLine("Введенное число является четным");
 // }
 // else
 // {
-//     if (num >=1000)
+//     Console.WriteLine("Введенное число нечетное");
+// }
+
+// Домашнее задание 4
+
+// Console.WriteLine("Введите число");
+// int N = Convert.ToInt32(Console.ReadLine());
+
+// int res = 1; 
+// if (res == 1)
 // {
-// while(num >=1000)
+//     res += 1;
+// }
+// while (res <= N)
 // {
-//     num =num / 10;
-// }
-// num = num % 10;
-// return num;
-// }
-// else
-// {
-//     Console.WriteLine($"{num} - Третьей цифры нет");
-//     return num;
-// }
-// }
+//     Console.WriteLine("Чётные число " + res);
+//     res += 2;
 // }
 
-// Console.WriteLine ("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine ());
-// Console.WriteLine(ThirdNumber(num));
+  
 
-//Домашнее задание 3
 
-// int Week (int num)
-// {
-//     if(num > 5)
-//     {
-//         Console.WriteLine($"{num} - да");
-//         return num;
-//         }
-//         else
-//         { 
-//             Console.WriteLine($"{num} - нет");
-//             return num;
-//             }
-// }
-
-// Console.WriteLine ("Введите день недели");
-// int num = Convert.ToInt32(Console.ReadLine ());
-// Console.WriteLine(Week(num));
-
+ 
