@@ -15,7 +15,7 @@
 //     Console.WriteLine($"{a} is max of {b}");
 // }
 
-//Домашнее задание 2 (Имеется ошибка, не решен)
+//Домашнее задание 2
 
 // Console.WriteLine("Напиши первый номер");
 // int num1 = Convert.ToInt32(Console.ReadLine());
